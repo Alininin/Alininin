@@ -1,0 +1,24 @@
+name: Update GitHub Stats
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate stats card
+        run: |
+          curl "https://github-readme-stats.vercel.app/api?username=Alininin&show_icons=true&theme=tokyonight&hide_border=true" -o stats.svg
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add stats.svg
+          git commit -m "auto: update stats card" || exit 0
+          git push
