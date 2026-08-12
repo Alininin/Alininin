@@ -13,7 +13,7 @@ Python · C/C++ · JavaScript
 Django · Mini Program · MySQL · Linux
 
 ### ✦ Github Stats
-![Alininin's GitHub stats](./stats.svg)
+![Alininin's GitHub stats](https://raw.githubusercontent.com/Alininin/Alininin/main/stats.svg)
 
 ### ✦ About me
 🌙 Enjoy quiet time when coding
