@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi there 𓂃
+### I'm Alininin
 
-<!--
-**Alininin/Alininin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub space.
 
-Here are some ideas to get you started:
+- 🪐 AI major｜Slowly exploring the world of programming
+- 🫧 Learning Python, C++ and everything related to computer science
+- 🕯️ Prefer quiet thinking and steady progress
+- ✉️ Open for gentle communication
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### ✦ Tech Stack
+Python · C/C++ · JavaScript
+Django · Mini Program · MySQL · Linux
+
+### ✦ Github Stats
+
+### ✦ About me
+🌙 Enjoy quiet time when coding
+🤍 Pursue clean code and orderly logic
+🪴 Keep learning, take my time
