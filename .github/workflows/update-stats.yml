@@ -1,20 +1,30 @@
+# 这个 CI/CD 流水线 的名字
 name: Update GitHub Stats
+
+# 执行
 on:
+  # 定时任务 在 0 点
   schedule:
     - cron: '0 0 * * *'
+  # 可以手动执行
   workflow_dispatch:
 
+# 任务
 jobs:
+  # 构建虚拟服务器
   build:
+    # 在 最新版本的 ubuntu 上运行
     runs-on: ubuntu-latest
+    # 步骤
     steps:
+      # 第一个任务
       - name: Checkout repository
         uses: actions/checkout@v4
-
+      # 第二个任务
       - name: Generate stats card
         run: |
           curl "https://github-readme-stats.vercel.app/api?username=Alininin&show_icons=true&theme=tokyonight&hide_border=true" -o stats.svg
-
+      # 第三个任务
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
